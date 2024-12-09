@@ -46,7 +46,7 @@ class Home extends React.Component {
       restitution: 0.1,
       render: {
         sprite: {
-          texture: "/gama1.png",
+          texture: "/L.png",
         },
       },
     });
@@ -58,7 +58,7 @@ class Home extends React.Component {
         restitution: 0.1,
         timeScale: 0.9,
         sprite: {
-          texture: "/gama1.png",
+          texture: "/L.png",
         },
       },
     });
@@ -69,7 +69,7 @@ class Home extends React.Component {
         friction: 0.05,
         restitution: 0.1,
         sprite: {
-          texture: "/gama1.png",
+          texture: "/L.png",
         },
       },
     });
@@ -80,7 +80,7 @@ class Home extends React.Component {
       restitution: 0.1,
       render: {
         sprite: {
-          texture: "/gama1.png",
+          texture: "/L.png",
         },
       },
     });
@@ -139,7 +139,7 @@ class Home extends React.Component {
 
     World.add(engine.world, mouseConstraint);
 
-    const textures = ["/gama1.png", "/gama1.png", "/gama1.png", "/gama1.png"];
+    const textures = ["/L.png", "/L.png", "/L.png", "/L.png"];
 
     function createBall(fruitType) {
       let textureIndex;
@@ -247,11 +247,23 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <div className="h-screen w-screen overflow-hidden">
-          <div ref="scene" className="relative filter brightness-90" />
-          <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[50%] left-[10%]">
-            Please Click!!
+        <div className="background-container">
+          <div ref="scene" className="background-image" />
+          <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[65%] left-[18%]">
+            $LUIJI:
           </h1>
+          <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[20%] left-[20%]">
+            Luigi U're
+            <br />
+            in jail
+            <br /> Imminently.
+          </h1>
+          <h2 className="text pointer-events-none text-[3rem] md:text-[3rem] absolute bottom-[33%] left-[75%]">
+            PUMP IT !!
+          </h2>
+          <h2 className="addy pointer-events-none text-[2rem] md:text-[2rem] absolute bottom-[8%] left-[11%]">
+            CA : 
+          </h2>
         </div>
       </>
     );
