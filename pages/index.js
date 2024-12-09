@@ -253,7 +253,7 @@ class Home extends React.Component {
             $LUIJI:
           </h1>
           <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[20%] left-[20%]">
-            Luigi U're
+            Luigi U&apos;re
             <br />
             in jail
             <br /> Imminently.
@@ -262,7 +262,7 @@ class Home extends React.Component {
             PUMP IT !!
           </h2>
           <h2 className="addy pointer-events-none text-[2rem] md:text-[2rem] absolute bottom-[8%] left-[11%]">
-            CA : 
+            CA :
           </h2>
         </div>
       </>
