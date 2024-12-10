@@ -262,7 +262,7 @@ class Home extends React.Component {
             PUMP IT !!
           </h2>
           <h2 className="addy pointer-events-none text-[2rem] md:text-[2rem] absolute bottom-[8%] left-[11%]">
-            CA :
+            CA : FghF8WNpuPmJdmp23osN25U6ZdQmpYDCwTrwZWupump
           </h2>
         </div>
       </>
