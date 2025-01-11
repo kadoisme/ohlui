@@ -250,19 +250,13 @@ class Home extends React.Component {
         <div className="background-container">
           <div ref="scene" className="background-image" />
           <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[65%] left-[18%]">
-            $LUIJI:
-          </h1>
-          <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[20%] left-[20%]">
-            Luigi U&apos;re
-            <br />
-            in jail
-            <br /> Imminently.
+            $LUIGGA:
           </h1>
           <h2 className="text pointer-events-none text-[3rem] md:text-[3rem] absolute bottom-[33%] left-[75%]">
             PUMP IT !!
           </h2>
           <h2 className="addy pointer-events-none text-[2rem] md:text-[2rem] absolute bottom-[8%] left-[11%]">
-            CA : FghF8WNpuPmJdmp23osN25U6ZdQmpYDCwTrwZWupump
+            CA : Will soon update
           </h2>
         </div>
       </>
